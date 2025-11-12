@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch ./src/index.ts",
+    "build": "tsc --outDir ./dist"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
